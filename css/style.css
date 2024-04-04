@@ -5,6 +5,11 @@
   src: url("./1942.ttf") format("opentype");
 }
 
+@font-face {
+  font-family: "GothamBook"; /* Choose a name for your font */
+  src: url("./GothamBook.ttf") format("opentype");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
@@ -47,7 +52,15 @@
 
   font-family: "1942", sans-serif;
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "GothamBook", sans-serif;
+}
 .fixed1 {
   /* background-color: red; */
   height: 100vh;
