@@ -1,8 +1,36 @@
 /** @format */
 
 @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+/* .licorice-regular {
+  font-family: "Licorice", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 .wills {
-  font-family: "Protest Revolution", sans-serif;
+  /* font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+  font-family: "Macondo", cursive;
+  font-weight: 100;
+  font-style: normal;
+  text-transform: lowercase !important;
+}
+.headzone {
+  /* font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: bolder; */
+
+  font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
 }
@@ -12,7 +40,7 @@
   height: 100vh;
   background-image: url(./smiley-side-view-boy-with-drum-sticks.jpg.png);
   background-size: cover;
-  background-position: fixed;
+  background-position: fixed !important;
 }
 
 .fixed2 {
@@ -20,7 +48,15 @@
   height: 100vh;
   background-image: url(./smiley-young-african-boy-standing-field.jpg.png);
   background-size: cover;
-  background-position: fixed;
+  background-position: fixed !important;
+}
+
+.fixed3 {
+  /* background-color: red; */
+  height: 100vh;
+  background-image: url(./medium-shot-smiley-kid-sitting-outdoors.jpg.png);
+  background-size: cover;
+  background-position: fixed !important;
 }
 
 /********** Template CSS **********/
