@@ -29,12 +29,11 @@
   /* font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal; */
-  /* 
-  font-family: "Macondo", cursive;
+
+  /* font-family: "Macondo", cursive;
   font-weight: 100;
   font-style: normal;
-  text-transform: lowercase !important;
-   */
+  text-transform: lowercase !important; */
 
   font-family: "GothamBook", sans-serif;
 }
@@ -88,6 +87,10 @@ small {
   background-image: url(./medium-shot-smiley-kid-sitting-outdoors.jpg.png);
   background-size: cover;
   background-position: fixed !important;
+}
+
+sections {
+  font-size: 5% !important;
 }
 
 /********** Template CSS **********/
