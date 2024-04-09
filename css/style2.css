@@ -105,7 +105,7 @@ article a {
   color: hsl(0 0% 100%);
   font-weight: 120;
   cursor: pointer;
-  background: linear-gradient(to right, #9333ea, #db2777) 0 0 / 200% 100%
+  background: linear-gradient(to right, #ffffff, #ffffff) 0 0 / 200% 100%
     no-repeat;
   transition: background-position 0.15s;
 }
@@ -168,7 +168,7 @@ p {
 
 label,
 input {
-  accent-color: #db2777;
+  accent-color: #ffffff;
   cursor: pointer;
 }
 
