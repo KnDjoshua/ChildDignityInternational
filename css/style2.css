@@ -217,7 +217,7 @@ input {
   mask: unset;
 }
 :root:has(#overflow:checked) .window {
-  outline: 4px dashed #db2777;
+  outline: 4px dashed #ffffff;
 }
 :root:has(#overflow:checked) .header {
   opacity: 0.2;
