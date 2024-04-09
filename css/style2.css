@@ -167,9 +167,10 @@ p {
 }
 
 label,
-input {
-  accent-color: #db2777;
+.colored {
+  accent-color: transparent !important;
   cursor: pointer;
+  display: none !important;
 }
 
 /*	border: 2px solid red;*/
@@ -261,6 +262,7 @@ input {
 
 :root:has(#dimension:checked) .grid {
   --rotate: 1;
+  /* display: none; */
 }
 
 li {
