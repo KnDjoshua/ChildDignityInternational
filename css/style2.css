@@ -46,7 +46,7 @@ article {
   box-shadow: 0 10px 20px -5px hsl(0 0% 50% / 0.5);
   border: 1px solid hsl(0 0% 90%);
   border-radius: 6px;
-  background: hsl(0, 0%, 100%);
+  background: hsl(0 0% 100%);
   resize: horizontal;
   overflow: hidden;
   max-width: min(calc(600px + 8rem), calc(100vw - 2rem));
