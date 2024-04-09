@@ -50,7 +50,7 @@ article {
   resize: horizontal;
   overflow: hidden;
   max-width: min(calc(600px + 8rem), calc(100vw - 2rem));
-  min-width: 1040px;
+  min-width: 340px;
   container-type: inline-size;
   transition: background-color 0.25s, color 0.25s, border 0.25s,
     box-shadow 0.25s;
@@ -105,7 +105,7 @@ article a {
   color: hsl(0 0% 100%);
   font-weight: 120;
   cursor: pointer;
-  background: linear-gradient(to right, #ffffff, #ffffff) 0 0 / 200% 100%
+  background: linear-gradient(to right, #9333ea, #db2777) 0 0 / 200% 100%
     no-repeat;
   transition: background-position 0.15s;
 }
@@ -168,7 +168,7 @@ p {
 
 label,
 input {
-  accent-color: #ffffff;
+  accent-color: #db2777;
   cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ input {
   mask: unset;
 }
 :root:has(#overflow:checked) .window {
-  outline: 4px dashed #ffffff;
+  outline: 4px dashed #db2777;
 }
 :root:has(#overflow:checked) .header {
   opacity: 0.2;
