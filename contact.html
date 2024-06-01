@@ -280,11 +280,12 @@
         </div>
         <div class="row g-5">
           <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-            <form>
+              <form action="https://formsubmit.co/ochomoluk@gmail.com" method="POST">
               <div class="row g-3">
                 <div class="col-md-6">
                   <input
                     type="text"
+                    name="NAME"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Your Name"
                     style="height: 55px"
@@ -293,6 +294,7 @@
                 <div class="col-md-6">
                   <input
                     type="email"
+                    name="EMAIL"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Your Email"
                     style="height: 55px"
@@ -301,13 +303,16 @@
                 <div class="col-12">
                   <input
                     type="text"
+                    name="SUBJECT"
                     class="form-control border-0 bg-light px-4"
                     placeholder="Subject"
                     style="height: 55px"
                   />
                 </div>
                 <div class="col-12">
+                  
                   <textarea
+                  name="MESSAGE"
                     class="form-control border-0 bg-light px-4 py-3"
                     rows="4"
                     placeholder="Message"
@@ -317,6 +322,9 @@
                   <button class="btn btn-primary w-100 py-3" type="submit">
                     Send Message
                   </button>
+                  <input type="hidden" name="_next" value="https://kndjoshua.github.io/KnD/">
+                  <!-- <input type="hidden" name="_captcha" value="false"> -->
+                  <!-- enble capture here -->
                 </div>
               </div>
             </form>
