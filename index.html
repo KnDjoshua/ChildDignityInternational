@@ -15,6 +15,7 @@
 
 <!-- css2 -->
 <link rel="stylesheet" href="./css/style2.css">
+<link rel="stylesheet" href="./css/formpopus.css">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -85,7 +86,7 @@
                   >Our Team</a
                 >
                 <div class="dropdown-menu m-0">
-                  <a href="#team" class="dropdown-item">Our Team</a>
+                  <a href="#teams" class="dropdown-item">Our Team</a>
                   <a href="#" class="dropdown-item">Organization structure</a>
                 </div>
               </div>
@@ -650,9 +651,9 @@
                         <h4 class="mb-3">EDUCATION</h4>
                          <p class="m-0 programs-description">Educational projects encompass a broad range of initiatives aimed at enhancing learning experiences, improving educational outcomes, and addressing challenges within the education sector. These projects can take various forms and focus on different aspects of education,from early childhood development to adult education and professional training 
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <!-- <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -664,9 +665,9 @@
                         <h4 class="mb-3">PROTECTION</h4>
                         <p class="m-0 programs-description">Protection projects encompass a range of initiatives aimed at safeguarding and promoting the rights, safety, and well-being of vulnerable individuals and populations. These projects are often implemented in contexts where people face various forms of risk, including conflict, displacement, discrimination, exploitation, or other threats to their rights and dignity
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <!-- <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
@@ -678,9 +679,9 @@
                         <h4 class="mb-3">LIVELIHOOD</h4>
                         <p class="m-0 programs-description">Livelihood projects are initiatives designed to enhance the economic well-being and resilience of individuals, households, and communities, particularly in areas facing economic challenges, environmental degradation, or other constraints. These projects aim to improve livelihood opportunities, income generation, and overall quality of life.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <!-- <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -692,9 +693,9 @@
                         <h4 class="mb-3">HEALTH</h4>
                         <p class="m-0 programs-description">Health projects encompass a diverse range of initiatives aimed at promoting health, preventing disease, and improving healthcare access and outcomes for individuals and communities. These projects are essential for addressing public health challenges, reducing morbidity and mortality, and advancing overall well-being.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <!-- <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -706,9 +707,9 @@
                         <h4 class="mb-3">Water And Sanitation(WASH)</h4>
                         <p class="m-0 programs-description">WASH projects focus on Water, Sanitation, and Hygiene interventions aimed at improving access to clean water, sanitation facilities, and promoting hygiene practices. These projects are essential for preventing waterborne diseases, reducing mortality rates, and improving overall quality of life, particularly in underserved communities.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <!-- <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
@@ -750,12 +751,22 @@
 
 
           
-          <button class="volunteerhere"
+          <button onclick="myFunction()" class="volunteerhere 
             href="#"
             rel="noreferrer noopener"
             >Partner With Us</button>
 
-
+            <script>
+function myFunction() {
+  var txt;
+  if (confirm("This Function Is Coming Up Soon!!!")) {
+    txt = "";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
 
         </div>
         <div class="window">
@@ -905,6 +916,11 @@
            </article>
            </div>
            </div>
+
+  
+
+
+
 <!-- partial -->
 
 
@@ -1137,17 +1153,21 @@
     <!-- Testimonial End -->
 
     <!-- Team Start -->
-    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div id="teams" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase"></h5>
-                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
+                <h4 class="fw-bold text-primary text-uppercase headzone">Our Team</h4>
+                <h4 class="mb-0 sections">Our dedicated team brings together
+                  a<br> diverse range of skills and experiences <br>to achieve our goals
+                </h4>
+                
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="/pictures/childdignity.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
                                         class="fab fa-twitter fw-normal"></i></a>
@@ -1160,7 +1180,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
+                            <h4 class="text-primary">David Ben</h4>
                             <p class="text-uppercase m-0">Designation</p>
                         </div>
                     </div>
@@ -1168,7 +1188,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="/pictures/childdignity.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
                                         class="fab fa-twitter fw-normal"></i></a>
@@ -1181,7 +1201,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
+                            <h4 class="text-primary">David Ben</h4>
                             <p class="text-uppercase m-0">Designation</p>
                         </div>
                     </div>
@@ -1189,7 +1209,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="/pictures/childdignity.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
                                         class="fab fa-twitter fw-normal"></i></a>
@@ -1202,14 +1222,19 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
+                            <h4 class="text-primary">David Ben</h4>
                             <p class="text-uppercase m-0">Designation</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div> 
+    <center>
+    <button class="btn-sm button-primary">View Team structure</button>
+
+    </center>
+
     <!-- Team End -->
 
     <!-- Blog Start -->
@@ -1318,13 +1343,11 @@
     src="https://cdn.lordicon.com/vzolctzz.json"
     trigger="hover"></lord-icon>
 
-                  Startup
+                  Signup
                 </h1>
               </a>
               <p class="mt-3 mb-4">
-                Lorem diam sit erat dolor elitr et, diam lorem justo amet clita
-                stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam
-                amet erat lorem stet eos. Diam amet et kasd eos duo.
+                Stay in the know! Sign up for our newsletter to receive the latest updates, exclusive offers, and insider news delivered straight to your inbox.
               </p>
               <form action="">
                 <div class="input-group">
