@@ -1,5 +1,10 @@
 /** @format */
 
+/* PROGRAMS PARAGRAPH DESCRIPTION */
+.programs-description {
+  font-size: 5px;
+}
+
 @font-face {
   font-family: "Geist Sans";
   src: url("https://assets.codepen.io/605876/GeistVF.ttf") format("truetype");
@@ -95,7 +100,7 @@ h2 span:last-of-type {
   transition: opacity 0.5s;
 }
 
- .volunteerhere{
+.volunteerhere {
   align-self: start;
   text-decoration: none;
   justify-self: end;
