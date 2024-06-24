@@ -227,7 +227,6 @@ h6,
   transition: 0.5s;
 }
 
-
 .sticky-top.navbar-dark .navbar-nav .nav-link {
   padding: 20px 0;
   color: var(--dark);
