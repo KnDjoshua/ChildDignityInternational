@@ -25,9 +25,9 @@
   font-style: normal;
 } */
 .stylesss {
-  background-image: url("./medium-shot-smiley-kid-sitting-outdoors.jpg.png");
-  background-position: fixed !important;
+  background-image: url("./ght.jpg");
   background-size: cover;
+  background-attachment: fixed !important;
 }
 .wills {
   /* font-family: "Protest Revolution", sans-serif;
