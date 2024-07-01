@@ -24,7 +24,11 @@
   font-weight: 400;
   font-style: normal;
 } */
-
+.stylesss {
+  background-image: url("./medium-shot-smiley-kid-sitting-outdoors.jpg.png");
+  background-position: fixed !important;
+  background-size: cover;
+}
 .wills {
   /* font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
