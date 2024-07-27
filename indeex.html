@@ -1,0 +1,67 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Org Chart</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f9;
+      }
+      .org-chart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .org-chart div {
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: center;
+      }
+      .level-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .level-2,
+      .level-3 {
+        display: flex;
+        justify-content: center;
+      }
+      @media (max-width: 600px) {
+        .level-2,
+        .level-3 {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="org-chart">
+      <div class="level-1">
+        <div>CEO</div>
+      </div>
+      <div class="level-2">
+        <div>CTO</div>
+        <div>CFO</div>
+        <div>COO</div>
+      </div>
+      <div class="level-3">
+        <div>Engineering Manager</div>
+        <div>Finance Manager</div>
+        <div>Operations Manager</div>
+      </div>
+    </div>
+  </body>
+</html>
