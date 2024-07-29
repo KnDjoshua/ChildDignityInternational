@@ -4,6 +4,14 @@
   font-family: "1942"; /* Choose a name for your font */
   src: url("./1942.ttf") format("opentype");
 }
+body {
+  /* background-color: rgb(0, 0, 0) !important; */
+}
+
+.girl {
+  background-image: url("./rty.png");
+  background-size: cover;
+}
 
 @font-face {
   font-family: "GothamBook"; /* Choose a name for your font */
