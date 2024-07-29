@@ -6,6 +6,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Org Chart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7x1Vz1rQP+JH8i3F7Sg0lWZn6unP7lJgGgAq3q6J6sNwG3jIdfF1j5UMw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -28,6 +35,16 @@
         border-radius: 5px;
         background-color: #fff;
         text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .org-chart div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .org-chart i {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 10px;
       }
       .level-1 {
         display: flex;
@@ -50,17 +67,38 @@
   <body>
     <div class="org-chart">
       <div class="level-1">
-        <div>CEO</div>
+        <div>
+          <i class="fas fa-user-tie"></i>
+          <div>CEO</div>
+        </div>
       </div>
       <div class="level-2">
-        <div>CTO</div>
-        <div>CFO</div>
-        <div>COO</div>
+        <div>
+          <i class="fas fa-laptop-code"></i>
+          <div>CTO</div>
+        </div>
+        <div>
+          <i class="fas fa-money-check-alt"></i>
+          <div>CFO</div>
+        </div>
+        <div>
+          <i class="fas fa-clipboard-list"></i>
+          <div>COO</div>
+        </div>
       </div>
       <div class="level-3">
-        <div>Engineering Manager</div>
-        <div>Finance Manager</div>
-        <div>Operations Manager</div>
+        <div>
+          <i class="fas fa-code"></i>
+          <div>Engineering Manager</div>
+        </div>
+        <div>
+          <i class="fas fa-calculator"></i>
+          <div>Finance Manager</div>
+        </div>
+        <div>
+          <i class="fas fa-boxes"></i>
+          <div>Operations Manager</div>
+        </div>
       </div>
     </div>
   </body>
